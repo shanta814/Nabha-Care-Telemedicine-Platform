@@ -1,0 +1,92 @@
+.container {
+  padding: 2rem;
+  background-color: #ffffff;
+  min-height: 100vh;
+  color: #000000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 2rem;
+}
+.header h1 {
+  font-size: 2.5rem;
+  color: #000000;
+}
+.header button, .header a {
+  padding: 0.8rem 1.5rem;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #eeeeee;
+}
+.section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+.vitalForm {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.vitalForm select, .vitalForm input {
+  padding: 0.8rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  flex: 1;
+  color: #000000;
+  background-color: #ffffff;
+}
+.vitalForm button {
+  padding: 0.8rem 1.5rem;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.vitalRecord, .appointmentItem {
+  padding: 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-color: #f0f0f0;
+  color: #000000;
+}
+.appointmentItem button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: #555555;
+}
+.joinButton { background-color: #333333; }
+.printButton { background-color: #777777; }
+.pendingBadge {
+  background-color: #dddddd;
+  color: #000000;
+  padding: 0.3rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}

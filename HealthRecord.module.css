@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+}
+.header {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header h1 {
+  color: #000000;
+}
+.backButton {
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #000000;
+  text-decoration: none;
+}
+.main {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #eeeeee;
+  width: 100%;
+  max-width: 600px;
+}
+.searchContainer {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.searchContainer input {
+  flex-grow: 1;
+  padding: 0.8rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #ffffff;
+}
+.searchContainer button {
+  padding: 0.8rem 1.5rem;
+  border: 1px solid #555555;
+  background-color: #555555;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+.prescriptionForm h2 {
+  color: #000000;
+}
+.prescriptionForm input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.medicineItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #eeeeee;
+  color: #000000;
+}
+.pharmacyButton {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

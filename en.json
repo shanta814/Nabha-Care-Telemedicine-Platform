@@ -1,0 +1,23 @@
+{
+  "home": {
+    "title": "Welcome to NabhaCare",
+    "symptomChecker": "Symptom Checker",
+    "symptomCheckerDesc": "Analyze your symptoms and get initial advice.",
+    "bookAppointment": "Book Appointment",
+    "bookAppointmentDesc": "Schedule a visit with one of our expert doctors.",
+    "videoConsultation": "Video Consultation",
+    "videoConsultationDesc": "Consult with doctors from the comfort of your home.",
+    "healthRecord": "Health Record",
+    "healthRecordDesc": "Access and manage your medical history.",
+    "doctorView": "Doctor's View",
+    "doctorViewDesc": "Portal for doctors to manage patients and appointments.",
+    "patientView": "Patient View",
+    "patientViewDesc": "Access your personal health dashboard and records.",
+    "pharmacy": "Pharmacy",
+    "pharmacyDesc": "Order medicines and health products online.",
+    "pharmacyAdmin": "Pharmacy Admin",
+    "pharmacyAdminDesc": "Manage pharmacy inventory and orders.",
+    "superAdmin": "Super Admin",
+    "superAdminDesc": "Overall management of the NabhaCare platform."
+  }
+}
